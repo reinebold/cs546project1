@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<TextView  
+    		android:layout_width="wrap_content" 
+    		android:layout_height="wrap_content" 
+    		android:text="Filename"/>
+		<EditText android:id="@+id/filename"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"  
+			android:layout_weight="1"/>
+	</LinearLayout>
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<TextView  
+    		android:layout_width="wrap_content" 
+    		android:layout_height="wrap_content" 
+    		android:text="Activity Tag"/>
+		<EditText android:id="@+id/activity"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"  
+			android:layout_weight="1"/>
+	</LinearLayout>
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<TextView  
+    		android:layout_width="fill_parent" 
+    		android:layout_height="wrap_content" 
+    		android:text="Location Tag"/>
+		<EditText android:id="@+id/location"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"  
+			android:layout_weight="1"/>
+	</LinearLayout>
+	<Button android:id="@+id/time" 
+	  	android:text="Start Collection"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+</LinearLayout>
